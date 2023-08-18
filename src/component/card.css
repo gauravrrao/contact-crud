@@ -1,0 +1,41 @@
+.cardcontainer{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-size: 15px;
+    color: blue;
+    padding-top: 1px;
+}
+.maintbox{
+    text-align: center;
+    margin-left: 20px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.btn1:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: darkred;
+}

@@ -1,0 +1,49 @@
+.screenbox{
+    background-color: white;
+    width:300px;
+    margin-bottom: 50px;
+}
+.fname{
+    display: flex;
+    margin-left: 10px;
+
+}
+.lname{
+    display: flex;
+    margin-left: 10px;
+}
+.fname > input{
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.lname > input{
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.scontain{
+    text-align: center;
+}
+.raddiv{
+    display: flex;
+    margin-left: 20px;
+}
+.divai{
+    margin-left: 60px;
+}
+.active{
+    display: flex;
+}
+.inactive{
+display: flex;
+}
+.divstatus>p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.sbutton{
+    padding: 20px;
+}

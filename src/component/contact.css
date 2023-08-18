@@ -1,0 +1,91 @@
+.container
+{
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+}
+.header{
+    height: 50px;
+    color: white;
+    background-color: rgb(126, 178, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header >p{
+    font-size: larger;
+}
+.belowcontainer{
+    display: flex;
+    height: 450px;
+    width: 500px;
+    border: 1px solid rgb(11, 2, 2);
+}
+.leftside{
+    height: 450px;
+    width: 100px;
+    border: 1px solid black;
+}
+.rightside{
+    background-color: rgb(201, 196, 196);
+    height: 450px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+.contactbox{
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+    color: blue;
+    border: 2px solid black;
+}
+.cam{
+    padding: 30px;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+    border: 2px solid black;
+}
+.headingcon{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 150px;
+    background-color: rgb(187, 174, 174);
+    margin-bottom: 50px
+}
+.headingcon:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.headingcon > p{
+    font-size: larger;
+    
+}
+.errorshow{
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.crossimg{
+    width: 50px;
+}
+.crossdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    word-wrap: break-word;
+}
+.cardbox{
+    display: flex;
+    
+}
